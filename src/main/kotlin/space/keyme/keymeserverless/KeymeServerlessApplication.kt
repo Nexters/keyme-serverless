@@ -2,8 +2,9 @@ package space.keyme.keymeserverless
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.context.annotation.Bean
+import org.springframework.cloud.openfeign.EnableFeignClients
 
+@EnableFeignClients
 @SpringBootApplication
 class KeymeServerlessApplication
 

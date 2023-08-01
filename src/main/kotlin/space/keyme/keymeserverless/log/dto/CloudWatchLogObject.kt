@@ -1,4 +1,4 @@
-package space.keyme.keymeserverless.log
+package space.keyme.keymeserverless.log.dto
 
 data class CloudWatchLogObject(
     val logGroup: Long,
