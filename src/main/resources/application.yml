@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    function:
+      definition: errLogSendToDiscord
+    main:
+      banner-mode: off
+
+feign:
+  discord:
+    url: https://discord.com/api/webhooks/1135894378636922900/sgGJpSljA3FbuihZ5V_RzCki8z7uQ7Y33EWt3CCKkXQRhcV2z5_JTq4EHnl44bXd2txU
