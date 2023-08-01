@@ -11,7 +11,7 @@ package:
   artifact: build/libs/keyme-serverless-lambda.jar
 
 functions:
-  errorLogHandler:
-    handler: space.keyme.keymeserverless.log.ErrorLogHandler
+  errLogSendToDiscord:
+    handler: org.springframework.cloud.function.adapter.aws.FunctionInvoker::handleRequest
     environment:
-      FUNCTION_NAME: errorLogHandler
+      FUNCTION_NAME: errLogSendToDiscord
